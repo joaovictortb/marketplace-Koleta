@@ -1,0 +1,39 @@
+:root {
+  --primary-color: #1cb161;
+  --title-color: #3d266b;
+  --text-color: #6c6c80;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(196, 224, 196) 100%
+  );
+  /* background-image: url('https://i.ibb.co/h9VCX74/Novo-Projeto.jpg'); */
+
+  -webkit-font-smoothing: antialiased;
+  color: var(--text-color);
+}
+
+body,
+input,
+button {
+  font-family: Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--title-color);
+  font-family: Ubuntu;
+}
